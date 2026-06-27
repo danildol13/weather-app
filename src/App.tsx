@@ -5,7 +5,7 @@ import Forecast from "./Pages/Forecast/Forecast.tsx";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename="/weather-app">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/weather" element={<Weather />} />
