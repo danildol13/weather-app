@@ -1,0 +1,52 @@
+.weatherContainer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+.buttonBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  transition: color 0.3s;
+  color: rgba(240, 248, 255, 0.5);
+}
+
+.logo {
+  color: rgba(240, 248, 255, 0.5);
+  display: flex;
+  align-items: center;
+  font-weight: 100;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+
+.logo::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: aqua;
+  margin-right: 10px;
+}
+
+.link {
+  color: rgba(240, 248, 255, 0.5);
+  font-weight: 100;
+  font-size: 15px;
+  letter-spacing: 3px;
+  transition: color 0.3s;
+}
+
+.icon {
+  color: rgba(240, 248, 255, 0.5);
+  transition: color 0.3s;
+}
+
+.buttonBlock:hover .link {
+  color: rgb(89, 191, 195);
+}
+
+.buttonBlock:hover .icon {
+  color: rgb(89, 191, 195);
+}

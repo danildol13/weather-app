@@ -1,0 +1,21 @@
+.headerBlock {
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  color: rgba(240, 248, 255, 0.5);
+  display: flex;
+  align-items: center;
+  font-weight: 100;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+.logo::before{
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: aqua;
+    margin-right: 10px;
+}

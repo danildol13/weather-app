@@ -1,0 +1,33 @@
+.commonContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+
+  position: relative;
+  z-index: 1;
+
+  position: relative;
+  font-family: "Outfit", sans-serif;
+  background-size: 150%;
+  animation: moveBg 20s ease-in-out infinite alternate;
+  min-height: 100vh;
+}
+
+.commonContainer::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgb(0 0 0 / 80%);
+  z-index: 0;
+}
+
+@keyframes moveBg {
+  from {
+    background-position: 0% 50%;
+  }
+
+  to {
+    background-position: 50% 100%;
+  }
+}

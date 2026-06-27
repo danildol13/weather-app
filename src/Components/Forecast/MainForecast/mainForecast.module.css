@@ -1,0 +1,93 @@
+.commonContainer {
+  position: relative;
+  z-index: 1;
+  padding: 40px 100px;
+}
+
+.title {
+  color: #ffffff73;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.loc {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.city {
+  color: azure;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 46px;
+}
+
+.country {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff73;
+  line-height: 24px;
+}
+
+.item {
+  display: flex;
+  border-bottom: 0.5px solid rgba(240, 248, 255, 0.4);
+  padding: 50px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item:first-child {
+  border-top: 0.5px solid rgba(240, 248, 255, 0.4);
+}
+
+.leftSide {
+  display: grid;
+  grid-template-columns: 90px 220px 260px;
+  align-items: center;
+}
+
+.icon {
+  color: rgb(128, 232, 232);
+
+  font-size: 30px;
+}
+
+.weekday {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.month {
+  color: #ffffff73;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.description {
+  color: #ffffff73;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.tem {
+  display: grid;
+  grid-template-columns: 40px 40px;
+}
+
+.maxTemp {
+  color: white;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.minTemp {
+  color: #ffffff73;
+  font-weight: 200;
+  font-size: 20px;
+}

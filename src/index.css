@@ -1,0 +1,82 @@
+/* ─── Reset ─────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Outfit", sans-serif;
+  background-image: url(../public/free-snow-overlay-loop-video-4k.jpg);
+  background-size: 150%;
+  animation: moveBg 20s ease-in-out infinite alternate;
+  min-height: 100vh;
+}
+
+
+
+@keyframes moveBg {
+  from {
+    background-position: 0% 50%;
+  }
+
+  to {
+    background-position: 50% 100%;
+  }
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgb(0 0 0 / 90%);
+  z-index: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+p{
+  margin: 0;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font: inherit;
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}

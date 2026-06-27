@@ -1,0 +1,87 @@
+.leftSide {
+  padding: 20px 70px;
+  position: relative;
+  z-index: 7;
+}
+
+.title {
+  color: #ffffff73;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.inputArea {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(255 255 255 / 0.4);
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+
+.inputArea:focus-within {
+  border-bottom: 1px solid rgb(89, 191, 195);
+}
+
+.inputContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.search {
+  color: rgb(255 255 255 / 0.4);
+}
+
+.cityInput {
+  color: white;
+  user-select: none;
+  font-weight: 100;
+}
+
+.searchButton {
+  color: rgb(255 255 255 / 0.4);
+}
+
+/* CurrentWeather*/
+
+.currentWeather {
+}
+
+.cardTitle {
+  color: #ffffff73;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+
+.cityName {
+  font-size: 50px;
+  font-weight: 200;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.tempArea {
+  display: flex;
+  align-items:start;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.temp {
+  font-size: 150px;
+  font-weight: 200;
+  color: #a6e2e5;
+  line-height: 0.8;
+}
+
+.cel {
+  color: #a6e2e5;
+}
+
+.description {
+  color: azure;
+  font-weight: 200;
+  font-size: 20px;
+}

@@ -1,0 +1,65 @@
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 70px;
+}
+
+.line {
+  border-bottom: 0.5px solid rgba(240, 248, 255, 0.4);
+  margin-bottom: 25px;
+  padding: 20px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.title {
+  color: #ffffff73;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+
+.valueContainer {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 5px;
+}
+
+.value {
+  font-weight: 100;
+  color: aliceblue;
+  font-size: 35px;
+  line-height: 0.8;
+}
+
+.sign {
+  color: #ffffff73;
+  font-size: 10px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+  width: 200px;
+  gap: 5px;
+  color: rgb(226, 222, 222);
+  padding: 15px;
+  border: 0.5px solid #ffffff73;
+  transition: color 0.5s, border 0.5s;
+}
+
+.link:hover{
+    color: rgb(89, 191, 195);
+    border: 0.5px solid rgb(89, 191, 195);
+}
+
+.linkText {
+  font-weight: 100;
+  font-size: 10px;
+}
+
